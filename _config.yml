@@ -1,0 +1,49 @@
+title: bytesized
+url: https://tornatezgahi.github.io
+author: tornatezgahi
+email:
+description: > # this means to ignore newlines until "show_exerpts:"
+  This is torna tezgahi. A guy who is willing to learn more about tech and who likes to share the things he learnt.
+show_excerpts: false # set to true to show excerpts on the homepage
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# jekyll-dash date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+dash:
+  date_format: "%b %-d, %Y"
+
+  disqus:
+    shortname: 
+
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://github.com/tornatezgahi
+      icon: github-square
+      color: yellow
+      
+  avatar_source: local
+  avatar_path:
+
+# Build settings
+theme: jekyll-dash
+
+plugins:
+  - liquid-md5
+  - jekyll/tagging
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
+
