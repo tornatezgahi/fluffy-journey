@@ -4,7 +4,7 @@ author: tornatezgahi
 email:
 description: > # this means to ignore newlines until "show_exerpts:"
   This is torna tezgahi. A guy who is willing to learn more about tech and who likes to share the things he learnt.
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 paginate: 5
 paginate_path: "/blog/page:num/"
