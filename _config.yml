@@ -37,7 +37,10 @@ theme: jekyll-dash
 plugins:
   - liquid-md5
   - jekyll/tagging
-
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-assets
+  - another-jekyll-pluginq
 jekyll_admin:
   hidden_links:
     - posts
